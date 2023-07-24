@@ -25,8 +25,8 @@ public class MyStocksSys {
 		
 		Company comp = CompanySys.findCompany(ticker);
 		final String url = "jdbc:mysql://localhost:3306/BIST100";
-		final String username = "root";
-		final String password = "Ayhan1989";
+		final String username = "username";
+		final String password = "password";
 		String query;
 		Connection con = null;
 		double[] pcs;
@@ -159,8 +159,8 @@ public class MyStocksSys {
 	
 	public static String[] displayStocks(String ticker, int a) {
 		final String url = "jdbc:mysql://localhost:3306/BIST100";
-		final String username = "root";
-		final String password = "Ayhan1989";
+		final String username = "username";
+		final String password = "password";
 		Locale turkishLocale = new Locale("tr", "TR");
         NumberFormat turkishFormat = NumberFormat.getCurrencyInstance(turkishLocale);
 		Connection con = null;
@@ -231,8 +231,8 @@ public class MyStocksSys {
 	public static void updateBuyOperationsAndMyStocks() {
 		
 		final String url = "jdbc:mysql://localhost:3306/BIST100";
-		final String username = "root";
-		final String password = "Ayhan1989";
+		final String username = "username";
+		final String password = "password";
 		String query = "";
 		Company comp = null;
 		
