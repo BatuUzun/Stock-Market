@@ -93,8 +93,8 @@ public class CompanySys {
 		watchListCompanies = new ArrayList<Company>();
 		watchListAllCompanies =  new ArrayList<Company>();
 		final String url = "jdbc:mysql://localhost:3306/BIST100";
-		final String username = "root";
-		final String password = "Ayhan1989";
+		final String username = "username";
+		final String password = "password";
 		int checkPosition = 0;
 		try {
 			Connection con = DriverManager.getConnection(url, username, password);
@@ -154,8 +154,8 @@ public class CompanySys {
 	
 	public static boolean addToWatchList(String ticker) {
 		final String url = "jdbc:mysql://localhost:3306/BIST100";
-		final String username = "root";
-		final String password = "Ayhan1989";
+		final String username = "username";
+		final String password = "password";
 		Connection con = null;
 		try {
 			con = DriverManager.getConnection(url, username, password);
@@ -189,8 +189,8 @@ public class CompanySys {
 	
 	public static boolean deleteFromWatchList(String ticker) {
 		final String url = "jdbc:mysql://localhost:3306/BIST100";
-		final String username = "root";
-		final String password = "Ayhan1989";
+		final String username = "username";
+		final String password = "password";
 		Connection con = null;
 		try {
 			con = DriverManager.getConnection(url, username, password);
@@ -225,8 +225,8 @@ public class CompanySys {
 	
 	public static boolean isWatchListTableEmpty(){
 		final String url = "jdbc:mysql://localhost:3306/BIST100";
-		final String username = "root";
-		final String password = "Ayhan1989";
+		final String username = "username";
+		final String password = "password";
 		Connection con = null;
 		try {
 			con = DriverManager.getConnection(url, username, password);
@@ -256,8 +256,8 @@ public class CompanySys {
 	
 	public static boolean searchFromWatchListWatchList(String ticker) {
 		final String url = "jdbc:mysql://localhost:3306/BIST100";
-		final String username = "root";
-		final String password = "Ayhan1989";
+		final String username = "username";
+		final String password = "password";
 		Connection con = null;
 		try {
 			con = DriverManager.getConnection(url, username, password);
@@ -290,8 +290,8 @@ public class CompanySys {
 		String query = "";
 		Company comp = null;
 		final String url = "jdbc:mysql://localhost:3306/BIST100";
-		final String username = "root";
-		final String password = "Ayhan1989";
+		final String username = "username";
+		final String password = "password";
 		HashSet<String> companyNames = new HashSet<String>();
 		Connection con = null;
 		try {
