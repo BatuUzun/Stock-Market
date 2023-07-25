@@ -1,5 +1,6 @@
 # Stock-Market
 This is my stock market project.
+Web scraping is used in this project.
 Companies are belong to stock market Istanbul(BIST).
 You can see prices and value of indexes.
 You can add or delete a stock to your watch list.
