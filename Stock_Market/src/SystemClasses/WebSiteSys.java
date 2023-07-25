@@ -15,8 +15,8 @@ import Companies.Company;
 
 
 public class WebSiteSys {
-	private final static String stockURL = "https://uzmanpara.milliyet.com.tr/canli-borsa/bist-TUM-hisseleri/";
-	private final static String bistURL = "https://www.isyatirim.com.tr/en-us/analysis/stocks/Pages/indexes.aspx";
+	private final static String stockURL = "LINK1";
+	private final static String bistURL = "LINK2";
 	private final static int onePage = 20;
 	private final static int bistIndexesPerPage = 15;
 	private static ArrayList<Object[]> bistIndexes = new ArrayList<Object[]>();
