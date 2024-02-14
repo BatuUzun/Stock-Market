@@ -14,6 +14,8 @@
 
 * In order to see whole project running, you can check my Google Drive.
 
-* My Google Drive: https://drive.google.com/drive/folders/1XJ52Ut-X_6YbcjVSHRzta2qxugMqxOfo?usp=sharing
+* My Google Drive: https://drive.google.com/file/d/1F6sv5nv3fOPFkV2CUqJJS0TtWonFA7qR/view?usp=drive_link
+
+* For further information about me: https://www.batuuzun.com/
 
 ![image](https://github.com/BatuUzun/Stock-Market/assets/103521291/991a51d3-9b5d-445a-88d2-3b3492ec080e)
